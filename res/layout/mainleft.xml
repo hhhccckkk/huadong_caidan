@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/n_home_bt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Home" />
+
+    <Button
+        android:layout_marginTop="8dp"
+        android:id="@+id/n_profile_bt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="profile" />
+
+    <Button
+        android:id="@+id/n_setting_bt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="settings" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/n_ntf_bt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/mainLeft_newSize"
+            android:text="Notifications" />
+
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:layout_marginRight="30dp"
+            android:id="@+id/mainLeft_newSize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textColor="#FF0000"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/n_about_bt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Aboutas" />
+
+    <Button
+        android:id="@+id/n_error_bt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="FAQ" />
+
+</LinearLayout>

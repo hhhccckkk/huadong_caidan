@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+         >
+       <RelativeLayout 
+           android:layout_height="wrap_content"
+           android:layout_width="wrap_content">
+           <Button
+               android:text="左边"
+             android:id="@+id/bt"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:onClick="showLeft"
+            android:padding="5dp" />
+          <TextView
+               android:layout_toRightOf="@+id/bt"
+              
+               android:textColor="#FF0000"
+               android:textSize="18sp"
+               android:layout_height="wrap_content"
+               android:layout_width="wrap_content"
+               android:id="@+id/news"
+               />
+           </RelativeLayout>
+        
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="W/VM"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <Button
+            android:text="右边"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center"
+            android:onClick="showRight" />
+    </FrameLayout>
+
+   
+
+   
+
+</LinearLayout>
